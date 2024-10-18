@@ -1,0 +1,33 @@
+body {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 64px;
+    max-width: 960px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.recipe-access {
+    padding: 12px 24px;
+}
+
+.recipe-pic {
+    width: 500px;
+    height: auto;
+}
+
+.ingredient-list {
+    list-style-type: disc;
+    display: block;
+}
+
+.ingredient-list li, ol li {
+    padding: 8px 0;
+}
